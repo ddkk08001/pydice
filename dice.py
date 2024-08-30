@@ -63,23 +63,26 @@ o           o
 ooooooooooooo
 """
 
-# Random Number
-dice = random.randint(1,6)
+while True:
+    input("Press Enter to roll the dice and press Ctrl+C to exit.")
 
-print("You rolled a", dice)
+    os.system("clear")
 
-# Output
-if dice == 1:
-    print(roll1)
-elif dice == 2:
-    print(roll2)
-elif dice == 3:
-    print(roll3)
-elif dice == 4:
-    print(roll4)
-elif dice == 5:
-    print(roll5)
-else:
-    print(roll6)
+    # Random Number
+    dice = random.randint(1,6)
 
+    print("You rolled a", dice)
 
+    # Output
+    if dice == 1:
+        print(roll1)
+    elif dice == 2:
+        print(roll2)
+    elif dice == 3:
+        print(roll3)
+    elif dice == 4:
+        print(roll4)
+    elif dice == 5:
+        print(roll5)
+    else:
+        print(roll6)
